@@ -1,0 +1,88 @@
+.about{
+    margin: 6rem 0;
+    position: relative;
+}
+.about h6{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 8rem;
+} 
+.about_container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 10%;
+}
+.about_me{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(90deg, #a993fe 10%, #07df12 90%);
+    display: grid;
+    place-items: center;
+}
+
+.about_img img{
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(15deg);
+    transition: var(--transition);
+}
+.about_img img:hover{
+    transform: rotate(0);
+}
+.about_img img{
+    width: 25rem;
+}
+.about_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.contact_me{
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.contact_me:hover{
+    color: #a993fe;
+    background: #000;
+    outline: 1.5px solid #a993fe;
+}
+.about_card{
+    background: rgba(22, 17, 47, 0.398);
+    border: 1.5px solid #6751b9;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+.about_icon{
+    color: #a993fe;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.about_card h5{
+    font-size: 0.95rem;
+}
+.about_card small{
+    font-size: 0.7rem;
+    color: white;
+}
+.about_content p{
+    margin: 2rem 0 2.6rem;
+    color: whitesmoke;
+}
+.about_me{
+    width: 50%;
+    margin: 2rem auto 4rem;
+}

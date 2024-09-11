@@ -1,0 +1,115 @@
+.contain{
+    margin: 4rem 0;
+    position: relative;
+}
+.contain h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+.my_project{
+    display: flex;
+    justify-content: space-around;
+}
+.myproject_card{
+    width: 400px;
+    height: auto;
+    transform: scale(0.9);
+    transition: transform 150ms ease-in, box-shadow 0.2s linear;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px -2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px -2px rgba(0, 0, 0, 0.75);
+    background: #2a2252;
+}
+.myproject_card h6{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+  
+.myproject_card:hover {
+    transform: scale(1);
+    box-shadow: 10px 10px 28px -2px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 28px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 28px -2px rgba(0, 0, 0, 0.75);
+}
+  
+  
+.pic img {
+    width: 100%;
+    height: 300px;
+    
+    border-radius: 35px;
+    padding: 15px;
+}
+
+.card__footer {
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+.card__Footer__first{
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.card__Footer__first:hover{
+    color: #a993fe;
+    background: #000;
+    outline: 1.5px solid #a993fe;
+}
+.card__Footer__second{
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.card__Footer__second:hover{
+    color: #a993fe;
+    background: #000;
+    outline: 1.5px solid #a993fe;
+}
+.all_language{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    text-align: center;
+
+}
+
+.language{
+    gap: 10px;
+    border-radius: 0.5rem;
+    border: 2.5px solid #6852ba;
+    margin-right: 14px;
+}
+.language label{
+    margin: 5px;
+    font-size: 13px;
+}
+  
